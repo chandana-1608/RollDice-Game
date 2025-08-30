@@ -29,11 +29,5 @@
 
 ---
 
-## 📸 Screenshots  
 
-### Start Page  
-![Start Page](./images/start-page.png)  
-
-### Game Page  
-![Game Page](./images/game-page.png)
 

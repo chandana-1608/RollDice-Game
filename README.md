@@ -1,12 +1,39 @@
-# React + Vite
+# 🎲 Roll Dice Game  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*An interactive React.js dice game where you test your luck by guessing the dice roll!*  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features  
+- 🎮 Start screen with a dice image and **Play Now** button  
+- 🎲 Dice rolling with real-time results  
+- 🔢 Number selector to choose your guess before rolling  
+- ⭐ Score tracking with a **Reset Score** option  
+- 📜 Show/Hide game rules anytime  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📝 How to Play  
+1. Select any number from the options.  
+2. Click on the dice image to roll.  
+3. If your selected number equals the dice roll → you score the same points as the dice 🎉.  
+4. If your guess is wrong → **2 points are deducted**.  
+5. Keep rolling and try to maximize your score!  
+
+---
+
+## 🛠️ Tech Stack  
+- **React.js** (with Hooks like `useState`)  
+- **Styled Components** for styling  
+- **JavaScript (ES6+)**  
+
+---
+
+## 📸 Screenshots  
+
+### Start Page  
+![Start Page](./images/start-page.png)  
+
+### Game Page  
+![Game Page](./images/game-page.png)
+
